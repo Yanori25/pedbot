@@ -523,6 +523,7 @@ const flowdetalle = addKeyword(
 
     }
 )
+/*
 .addAnswer('se muestra el menu acontinuacion', {
     media: 'https://i.imgur.com/ZzOQwRD.png'
     
@@ -532,7 +533,7 @@ const flowdetalle = addKeyword(
     'https://i.imgur.com/F7zT3mI.png'
 
 })
-
+*/
 
 
 .addAnswer(['Nuestro horario de atencion es de 9:00 AM  a 8:00 PM 🕘',
