@@ -2,10 +2,10 @@
   key: {
     remoteJid: '50497090582@s.whatsapp.net',
     fromMe: false,
-    id: 'E297DE1D4B110C6088617A1CFD953799',
+    id: 'A4F0DF4D882783F7AF60822BCAADDCFF',
     participant: undefined
   },
-  messageTimestamp: 1695575123,
+  messageTimestamp: 1695833738,
   pushName: 'Rfunes',
   broadcast: false,
   message: Message {
@@ -19,8 +19,8 @@
   from: '50497090582'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_3108fe9b-f09c-48dd-acd6-189c6ce7f992',
-  keyword: 'key_e4238a40-f95f-4def-b9d3-770b607ec1c9',
+  ref: 'ans_bfa6dbc3-b2d2-4a93-91cd-73a069f07327',
+  keyword: 'key_cb10a7de-e7ee-4cf3-b8fd-fe3922608bd3',
   answer: 'Hola mi nombre es *parador bot* 🔩 soy el agente\n' +
     'de servicio al cliente automatizado',
   options: {
@@ -33,11 +33,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '651fdc85f26221c34ec37305d089f319'
+  refSerialize: '524fd574151730f65d87e6aaee35239c'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_7ae35a84-f0a4-4720-9b20-d3a599f738d3',
-  keyword: 'ans_3108fe9b-f09c-48dd-acd6-189c6ce7f992',
+  ref: 'ans_ce5bc313-096e-453b-a728-cbabae610432',
+  keyword: 'ans_bfa6dbc3-b2d2-4a93-91cd-73a069f07327',
   answer: '*1)* Gestionar pedidos 📝\n' +
     '*2)* Reservacion de mesa ☎\n' +
     '*3)* Preguntas Frecuentes ❓\n' +
@@ -52,22 +52,21 @@
       [Object], [Object],
       [Object], [Object],
       [Object], [Object],
-      [Object], [Object],
       [Object]
     ],
     keyword: {},
     callback: false
   },
-  refSerialize: '6cdaeef7cff9f9de07ae1a20603db58b'
+  refSerialize: 'ba1ed34cd993f2fe6be2943e7a22dc7a'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '50497090582@s.whatsapp.net',
     fromMe: false,
-    id: '9709CE237EB67C46899176F9FDEDEA31',
+    id: 'D1FE098F53590E9F961381669D8DE167',
     participant: undefined
   },
-  messageTimestamp: 1695575124,
+  messageTimestamp: 1695833740,
   pushName: 'Rfunes',
   broadcast: false,
   message: Message {
@@ -81,8 +80,8 @@
   from: '50497090582'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8aadbfaf-fa03-4c66-a27b-fb9908b9132b',
-  keyword: 'key_29eaedad-8976-4e8d-9f42-ffb6ea0c5cb2',
+  ref: 'ans_51f4d6de-280f-45af-91ab-e5f4ab481829',
+  keyword: 'key_0ade7c21-e778-4277-bebe-f723b5207236',
   answer: 'Bienvenido servicio a *domicilio* o *recogerlo* en una de nuestras sucursales',
   options: {
     media: null,
@@ -94,11 +93,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '2cf6109f91ea76e035dd1db38968f256'
+  refSerialize: '754649f26c8543a7bd5d99f68037220a'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_e53281dd-0231-4cbd-b6ee-6d59135fa17c',
-  keyword: 'ans_8aadbfaf-fa03-4c66-a27b-fb9908b9132b',
+  ref: 'ans_01cac437-b479-4591-96ce-ab8b837e739b',
+  keyword: 'ans_51f4d6de-280f-45af-91ab-e5f4ab481829',
   answer: '*1) Domicilio*\n*2) Pickup*\n*3) Regresar al*',
   options: {
     media: null,
@@ -110,16 +109,16 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'bbd701a63b2b94e224196a9f63761acc'
+  refSerialize: 'c139f0d72af9488bad6af849fc7c1069'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '50497090582@s.whatsapp.net',
     fromMe: false,
-    id: 'CD8E6B1C77B2E029DB9A463DDE335DE2',
+    id: '0E842EE935441C9D8F18A7386C1C4A7C',
     participant: undefined
   },
-  messageTimestamp: 1695575125,
+  messageTimestamp: 1695833743,
   pushName: 'Rfunes',
   broadcast: false,
   message: Message {
@@ -133,8 +132,8 @@
   from: '50497090582'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_edf02df4-eb0a-4234-94c5-0ad489cbe3a7',
-  keyword: 'ans_e53281dd-0231-4cbd-b6ee-6d59135fa17c',
+  ref: 'ans_d11a1728-1b73-44c5-a452-52d349776bf0',
+  keyword: 'ans_01cac437-b479-4591-96ce-ab8b837e739b',
   answer: 'Cual es su nombre completo',
   options: {
     media: null,
@@ -146,31 +145,31 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '745304fcd72bb3f9baabff9592ec5f5a'
+  refSerialize: 'd1e0f3894ecfc0e58557ecb85630037b'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '50497090582@s.whatsapp.net',
     fromMe: false,
-    id: '4639B3CC3CFD8652DFC32969970A15CE',
+    id: '494F1AFE583F98E38EC59C8409B749DC',
     participant: undefined
   },
-  messageTimestamp: 1695575125,
+  messageTimestamp: 1695833746,
   pushName: 'Rfunes',
   broadcast: false,
   message: Message {
-    conversation: '1',
+    conversation: 'Rigo',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '1',
+  body: 'Rigo',
   from: '50497090582'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_0a14cd43-b70f-46e8-a577-ad61c01362ca',
-  keyword: 'ans_edf02df4-eb0a-4234-94c5-0ad489cbe3a7',
+  ref: 'ans_b62d5232-7769-41fb-81b1-2457d9acefdb',
+  keyword: 'ans_d11a1728-1b73-44c5-a452-52d349776bf0',
   answer: 'Cual es el numero de 📱 de la persona que recibira el pedido? favor escribirlo sin guiones y espacios\n' +
     ' *Ejemplo: 98802020*',
   options: {
@@ -183,31 +182,31 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '8068664f2759dd98bc9fe36d0d35fb56'
+  refSerialize: '4bf79c27dec1cc6cc78bd25ecaf83dad'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '50497090582@s.whatsapp.net',
     fromMe: false,
-    id: '24DF65CD2647035E28D9A5AAD8B7F34D',
+    id: '146A1F42FFDE9E6780E9E42BC6689FDD',
     participant: undefined
   },
-  messageTimestamp: 1695575127,
+  messageTimestamp: 1695833748,
   pushName: 'Rfunes',
   broadcast: false,
   message: Message {
-    conversation: '1',
+    conversation: '123',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '1',
+  body: '123',
   from: '50497090582'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_82ffaa41-842b-4636-ba75-597b60e29424',
-  keyword: 'ans_0a14cd43-b70f-46e8-a577-ad61c01362ca',
+  ref: 'ans_31e67ed6-8e13-43da-a7a4-e3b72b3fcb58',
+  keyword: 'ans_b62d5232-7769-41fb-81b1-2457d9acefdb',
   answer: 'Elija la sucursal donde recogera su pedido\n*1) Principal*',
   options: {
     media: null,
@@ -219,16 +218,16 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'e1c7a988d76d045e70356223d3981232'
+  refSerialize: 'cf01179a11c0885545e4098b6d51b9d6'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '50497090582@s.whatsapp.net',
     fromMe: false,
-    id: '6CA5B5F84AC3B628B6D3D3A023360ED9',
+    id: '74BEAE2529B24186505BC0676FC5B21E',
     participant: undefined
   },
-  messageTimestamp: 1695575129,
+  messageTimestamp: 1695833750,
   pushName: 'Rfunes',
   broadcast: false,
   message: Message {
@@ -242,40 +241,8 @@
   from: '50497090582'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_6bc26045-926e-4bf0-9924-c20744abead6',
-  keyword: 'ans_82ffaa41-842b-4636-ba75-597b60e29424',
-  answer: 'se muestra el menu acontinuacion',
-  options: {
-    media: 'https://i.imgur.com/ZzOQwRD.png',
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '864c2c01933ef8dff369ffa2b13f02df'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_0f603940-ae2a-483e-8538-bc96d67495b7',
-  keyword: 'ans_6bc26045-926e-4bf0-9924-c20744abead6',
-  answer: 'se muestra el menu acontinuacion',
-  options: {
-    media: 'https://i.imgur.com/F7zT3mI.png',
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '8ffc042c68acde4b1400e8da7e577577'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_abbdf518-98bc-4e77-ba23-daf0e9d277a4',
-  keyword: 'ans_0f603940-ae2a-483e-8538-bc96d67495b7',
+  ref: 'ans_a428761b-7870-4620-be1a-2c6d27fb652b',
+  keyword: 'ans_31e67ed6-8e13-43da-a7a4-e3b72b3fcb58',
   answer: 'Nuestro horario de atencion es de 9:00 AM  a 8:00 PM 🕘\n' +
     'A que horas desea pasar por su pedido?',
   options: {
@@ -288,31 +255,31 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '1d60ca0cb46b3309972f937be6175adc'
+  refSerialize: '61b4eaeb4b8fe6a4367add1eadd3452a'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '50497090582@s.whatsapp.net',
     fromMe: false,
-    id: '0D0847F22FFB1002275C169E784709C8',
+    id: 'D8B710AAA51E600EA8228A33D49A20D3',
     participant: undefined
   },
-  messageTimestamp: 1695575133,
+  messageTimestamp: 1695833753,
   pushName: 'Rfunes',
   broadcast: false,
   message: Message {
-    conversation: '1',
+    conversation: '12',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '1',
+  body: '12',
   from: '50497090582'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_0ec216f3-4ace-4819-8a8c-7557fcfa04d1',
-  keyword: 'key_048e9afe-f09e-41b8-b12d-495d0c8248e0',
+  ref: 'ans_f00fd45d-4c33-4497-afe9-b4169c854b88',
+  keyword: 'key_b731cb10-f12e-4982-afa6-f47583d30d42',
   answer: 'Espere un momento generando menu',
   options: {
     media: null,
@@ -324,11 +291,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'e9de124655ce5d5e7e800301f521565c'
+  refSerialize: '49b35be558bc671571f84720c7e190dd'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_66020834-2039-4d84-a680-b8a32bedda6f',
-  keyword: 'ans_0ec216f3-4ace-4819-8a8c-7557fcfa04d1',
+  ref: 'ans_38237d9b-176c-482c-b0b3-af4d835d6c30',
+  keyword: 'ans_f00fd45d-4c33-4497-afe9-b4169c854b88',
   answer: 'Escriba el numero de categoria que desea',
   options: {
     media: null,
@@ -340,212 +307,5 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '5e437f3120e294c5efa84870bfaf768f'
+  refSerialize: '24d5340e1797ec56a12fdae997feaf0c'
 }
-[handleMsg]:  {
-  key: {
-    remoteJid: '50497090582@s.whatsapp.net',
-    fromMe: false,
-    id: '2BB625BE41A77EB338AB502DA73A499D',
-    participant: undefined
-  },
-  messageTimestamp: 1695575139,
-  pushName: 'Rfunes',
-  broadcast: false,
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '50497090582'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_4de3d2d8-7235-4e72-80e1-42942c2fcee5',
-  keyword: 'key_4fbf6b79-e82d-4c31-8eab-b9c3b58a998b',
-  answer: 'Escriba el producto que desea seleccionar',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    nested: [ [Object], [Object] ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '5fca2c97630b3392c2a7de22300e2d6b'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '50497090582@s.whatsapp.net',
-    fromMe: false,
-    id: 'F881DE4D2056D0B1EA45FB1FCB96EB7D',
-    participant: undefined
-  },
-  messageTimestamp: 1695575142,
-  pushName: 'Rfunes',
-  broadcast: false,
-  message: Message {
-    conversation: '4',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '4',
-  from: '50497090582'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_0322c421-f05d-46e8-b415-10e37ed1ae62',
-  keyword: 'key_8b34f47d-dedc-4608-86c0-7e40d6da03fd',
-  answer: 'Cuantos Productos desea ordenar',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    nested: [ [Object], [Object] ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '2a7f4ee556eb563f28a805b7b57b9a21'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '50497090582@s.whatsapp.net',
-    fromMe: false,
-    id: '5A5222B561C4914F885B7D416E52C2E5',
-    participant: undefined
-  },
-  messageTimestamp: 1695575147,
-  pushName: 'Rfunes',
-  broadcast: false,
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '50497090582'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_7c2caff2-a858-46a4-b6b2-385b212d05e3',
-  keyword: 'key_cabcac38-f076-4eac-9171-7df463fca3cd',
-  answer: 'Gracias por ordenar su primer producto\n' +
-    'Dese Agregar mas productos escriba agregar\n' +
-    '*1) Si*\n' +
-    '*2) NO*',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    nested: [ [Object], [Object], [Object] ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'ef31f6799d183f62d2df34aae434b165'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '50497090582@s.whatsapp.net',
-    fromMe: false,
-    id: '9B43B182832E82FFE738FED0B0545458',
-    participant: undefined
-  },
-  messageTimestamp: 1695575148,
-  pushName: 'Rfunes',
-  broadcast: false,
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '50497090582'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_aa8dde62-675e-4810-a028-f423cd447a61',
-  keyword: 'key_0f823247-265a-428d-b479-eedd8e126060',
-  answer: 'Desea hacer su pago con su tarjeta bancaria 💳 o en efectivo 💵 ?\n' +
-    '*1) Tarjeta*\n' +
-    '*2) Efectivo*',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    nested: [ [Object], [Object], [Object] ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '162f6fd5d56f86d2b85aacf3f2b8024f'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '50497090582@s.whatsapp.net',
-    fromMe: false,
-    id: '723CC0D5BC7625561A82DCD7063E156B',
-    participant: undefined
-  },
-  messageTimestamp: 1695575150,
-  pushName: 'Rfunes',
-  broadcast: false,
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '50497090582'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_ee281980-aa39-4b6c-ba6d-d67b75f2c45e',
-  keyword: 'key_2d38de9b-4012-428b-bc6f-46fa4722a4d7',
-  answer: 'Ingrese su RNT por favor sin guiones ni espacios\n' +
-    'si no desea agregar rtn escriba na',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '6d0f588e32d881248e15de0d82544a3b'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '50497090582@s.whatsapp.net',
-    fromMe: false,
-    id: 'BB45CE60767943A8EB3C99C275F1B130',
-    participant: undefined
-  },
-  messageTimestamp: 1695575153,
-  pushName: 'Rfunes',
-  broadcast: false,
-  message: Message {
-    conversation: '1234',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '1234',
-  from: '50497090582'
-}
-[ERROR.save]:  undefined

@@ -13,10 +13,11 @@ dotenv.config();
 
 const EMAILSERVICES = process.env.EMAILSERVICES;
 const KEYSERVICE = process.env.KEYSERVICE;
+const IDSPREEDSHEET = process.env.IDSPREEDSHEET;
 
 console.log('EMAILSERVICES', EMAILSERVICES)
 console.log('KEYSERVICE',KEYSERVICE)
-
+console.log('IDSPREEDSHEET',IDSPREEDSHEET)
 
 
 const SCOPES = [
@@ -44,6 +45,7 @@ const KEY = //KEYSERVICE
 
 const kwylimpia =  KEY//.replace(/\\/g, "")
 //console.log('kwylimpia', kwylimpia)
+/*
     this.jwtFromEnv = new JWT({
       email: EMAILSERVICES, // 'pedbot@pedbot.iam.gserviceaccount.com', 
       key: kwylimpia, // KEY.replace(/\\n/g, "\n"),
@@ -51,14 +53,32 @@ const kwylimpia =  KEY//.replace(/\\/g, "")
       
       scopes: SCOPES,
     });
+*/
+
+
+console.log('EMAILSERVICES jwt',EMAILSERVICES)
+    
+console.log('id KEYSERVICE',KEYSERVICE)
+let llave = 
+
+"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDRSTXLIgwX6kUb\\nAaAusWUrBGnGYG8D+bBMam3ZPSIRmcXEyu/PVp4TmIX63yQXm+dohnmEpuZ6sHh5\\nPmIhwRVAORqADL5HvGsxn5pTkoyU0i0tLiUjjXe1kis2qdo/hQE1aen90w9j8QEI\\n9ebX9kLxoSWQ7+QdjqV0MZk8Mz45qa/u6Nsp1HdAx+1hb05j2NJhaQ67p/1obriC\\nlrGr47sJTdpP1gva7tnxoUKJ5pcKfEeaWxEH4DfA04pb8PP/LTISvN3u9GN7plQ3\\nDdfA1Kxs/1BIk2fEWe8gXGW48FAngezwUoU84MrXUTy/ihIxZi7iyipyT9w8JZeB\\ncCSEwdrNAgMBAAECggEAAm2ioPK9YftArGmLN3KtEjmA4kf09P5zdZxRt5DABNhC\\ntSygz66l/7A09CfQPjEVSqv7KPdB+vALoplL5i+PuykIDhUXxOYb9rCiLioOVR1P\\n+a0GMH1pto+cAYxckRqBj+JLHSJslH16KswMaG3d2C14eoM61r6OKOT41C8vOT5u\\nl74fBo8IfI5toFYJRUZuS9gGR1cnNl27NuMNZL3kOrxvo8HBaPX9blQQIs/K1qvI\\nf2hUozlMAi8sxMZikdiTh1IWMe7UWHPe5BWZO6hUxPhOFPAwslLoGdPECEP0JMWk\\n9nbr58zBjWHuhTH8m0ZpYLbZNCMGDyZ22b2cQM3HeQKBgQD6I+lr77YlGu58S8lA\\nucKc50BUT+eFK4SfqNSQ1iP7vJ+vTkfu3IF7ixHt5kDUk988KIkFSNWIyyQR7hHS\\nRP72MQhyCdP9TC1Bij1MwLUeeJ/PeSTo4fxznepshaqvYELGP509L6vlABsEsJFB\\nrd8Pi/AYFBH0oNLQTXj4iG6j7wKBgQDWMEuqhT4E/N9ON9UvKKN7riq0+o3rIpsw\\nenWtoVXXmPJRL64KTa2bbop2AuFmVJpcprwUg8+N3zOpMfX57EtlzCcvbGPoYToA\\nPa9gKGaDr5ndCrpNBPkl4l9NWyNJAEgg3Orje4tv051n47VHZyytKt/j2JOe9pXX\\nbbd6Fk4BAwKBgQDAhqeAhi4BfSsVzBcIlHFv5qWivyWJYCdh48ZH/CoR9epKOcwv\\n0tRuTGnuW4yGkZH+cYyU3qxL717B1iUtXCGJR9AiReI+UUV77nSkAKbm3xzRyYJZ\\nJKb0LhVilbb76PE8OXZCw9BgH6asA2Kp1LOc+a5AOiJf0PCxlw+G6yuNTQKBgAsU\\nSHWzmrerVOm43aAo2/wD0FW4OCsXiSuCyh+HHueeE7q7WqdRyU8m8qaUE5C1g56T\\nSVtOTigqiYORAAZDgMrtOoGre6eDj/p/Nlkk/diF9tGGQojFXxXklcVsl3CpQRHi\\nG4xU0auhKJ09HB1ratYyR46Dn28zliCknj8EdFh9AoGBANcQumHxz8vsqzPwtk8P\\nfi3vjas6xjfT4uDTUpximqY4QcaZG5M4PQYsA3Ijh1kq6nQjBgurWwxNe+UkU9Bi\\nSw87gn21Put7ML0Ih41m4iTshXf43aHFLLj/JdQnfGU+wLXIyNlimRov3ox/Dugi\\nRhRJhZLQYNnxUmnhLEB/Dd6Z\\n-----END PRIVATE KEY-----\\n"
+llave= llave.replace(/\\n/g, "\n")
+
+console.log('llave ', llave)
+
 
     const serviceAccountAuth = new JWT({
       email: EMAILSERVICES ,// 'pedbot@pedbot.iam.gserviceaccount.com', //'kosortosanchez@gmail.com',// '861551596000-u752bhhklttmbdamtjcd4mkgi02qf97d.apps.googleusercontent.com',
-      key: KEYSERVICE, // kwylimpia, // KEY.replace(/\\n/g, "\n"),
+      key: llave , // KEYSERVICE, // kwylimpia, // KEY.replace(/\\n/g, "\n"),
     
       
       scopes: SCOPES,
     });
+
+    console.log('serviceAccountAuth jwt',serviceAccountAuth)
+    
+    console.log('id google sheet',id)
+
 
      this.doc = new GoogleSpreadsheet(id, serviceAccountAuth);
 
